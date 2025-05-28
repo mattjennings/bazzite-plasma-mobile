@@ -11,7 +11,6 @@ set -ouex pipefail
 
 # this installs a package from fedora repos
 dnf5 install -y plasma-mobile
-dnf5 remove -y plasma-desktop
 
 # Use a COPR Example:
 #
